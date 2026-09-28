@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/deltasemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delta validation gates for semver inputs before they hit prod.",
+  "bin": {
+    "deltasemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/deltasemver.git"
+  },
+  "homepage": "https://theworker02.github.io/deltasemver/",
+  "keywords": [
+    "delta",
+    "semver",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
